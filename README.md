@@ -56,11 +56,11 @@ This Next.js frontend allows you to interact with the backend REST API. Here's h
 To register a new user, visit the register page:
 
 ```
-http://localhost:3000/register
+http://localhost:3000
 ```
 
 - Fill in the registration form with the required information.
-- Click the "Register" button to submit the registration.
+- Click the "Create an account" button to submit the registration.
 
 ### Login Page
 
@@ -89,7 +89,10 @@ The live deployment of this Next.js frontend can be accessed at: [widya-nextjs-p
 
 This application is styled using Tailwind CSS and the HyperUI library. You can customize the styles by modifying the Tailwind CSS configuration files and HyperUI components as needed.
 
+## Acknowledgment and Credit
+
+Images used in this application are sourced from the [Karir section](https://widyawicara.com/karir/) of the [Widya Wicara website](https://www.widyawicara.com/). We acknowledge and credit Widya Wicara as the copyright owner of these images.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
