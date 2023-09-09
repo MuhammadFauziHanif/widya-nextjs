@@ -12,6 +12,10 @@ The REST API project includes the following features:
 - JWT authentication for protected routes
 - Fetch user profile data
 
+## Deployment
+
+The live deployment of this Next.js frontend can be accessed at: https://widya-nextjs-production.up.railway.app
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -80,10 +84,6 @@ After successful login, you can access protected routes, such as the user profil
 ```
 http://localhost:3000/profile
 ```
-
-## Deployment
-
-The live deployment of this Next.js frontend can be accessed at: [widya-nextjs-production.up.railway.app](https://widya-nextjs-production.up.railway.app)
 
 ## Styling with Tailwind CSS and HyperUI
 
