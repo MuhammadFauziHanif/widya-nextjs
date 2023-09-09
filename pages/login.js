@@ -34,7 +34,7 @@ function Login() {
       }
     } catch (error) {
       console.error('Login error:', error.message);
-      setErrorMessage(response.message);
+      setErrorMessage(error.message);
     } finally {
       // Stop loading, whether login was successful or not
       setIsLoading(false);
