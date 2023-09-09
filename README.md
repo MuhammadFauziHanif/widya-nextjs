@@ -89,6 +89,10 @@ The live deployment of this Next.js frontend can be accessed at: [widya-nextjs-p
 
 This application is styled using Tailwind CSS and the HyperUI library. You can customize the styles by modifying the Tailwind CSS configuration files and HyperUI components as needed.
 
+## Responsive Design
+
+This Next.js frontend application is built with a responsive design in mind. It adapts gracefully to different screen sizes and devices, ensuring a consistent and user-friendly experience whether you're accessing it from a desktop, tablet, or mobile device.
+
 ## Acknowledgment and Credit
 
 Images used in this application are sourced from the [Karir section](https://widyawicara.com/karir/) of the [Widya Wicara website](https://www.widyawicara.com/). We acknowledge and credit Widya Wicara as the copyright owner of these images.
