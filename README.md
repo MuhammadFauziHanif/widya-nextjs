@@ -97,7 +97,7 @@ This Next.js frontend application is built with a responsive design in mind. It 
 
 This Next.js frontend application includes support for dark mode. It automatically detects your operating system's preferences and adjusts the interface to light or dark mode accordingly. This ensures that users can enjoy a comfortable viewing experience based on their preferred system settings.
 
-## Acknowledgment and Credit
+## Image Acknowledgment and Credit
 
 Images used in this application are sourced from the [Karir section](https://widyawicara.com/karir/) of the [Widya Wicara website](https://www.widyawicara.com/). We acknowledge and credit Widya Wicara as the copyright owner of these images.
 
