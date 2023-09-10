@@ -30,7 +30,7 @@ function Profile() {
   };
 
   return (
-    <div className="p-4 bg-white dark:bg-gray-900 rounded-lg shadow-md mt-8 w-[400px]">
+    <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md mt-8 w-[400px]">
       <h1 className="text-2xl font-semibold mb-4 text-center">Profile</h1>
       {isLoading && (
         <p className="text-gray-700 text-center animate-pulse">Loading...</p>

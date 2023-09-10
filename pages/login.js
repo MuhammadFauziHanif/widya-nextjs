@@ -43,7 +43,7 @@ function Login() {
 
   return (
     <div className="flex items-center justify-center mt-8">
-      <div className="bg-white dark:bg-gray-900 p-8 rounded shadow-md w-96">
+      <div className="bg-white dark:bg-gray-800 p-8 rounded shadow-md w-96">
         <h1 className="text-2xl font-bold mb-4 text-center">Login</h1>
 
         <form onSubmit={handleSubmit}>

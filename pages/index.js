@@ -63,7 +63,7 @@ function Register() {
 
   return (
     <div className="flex items-center justify-center mt-8">
-      <div className="bg-white dark:bg-gray-900 p-8 rounded shadow-md">
+      <div className="bg-white dark:bg-gray-800 p-8 rounded shadow-md">
         <h1 className="text-2xl font-bold mb-4 text-center">Register</h1>
         <form onSubmit={handleSubmit} className="mt-8 grid grid-cols-6 gap-6">
           <div className="col-span-6 sm:col-span-3">
