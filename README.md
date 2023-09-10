@@ -2,6 +2,10 @@
 
 This is a Next.js frontend application that interacts with a REST  API project. The backend REST API provides user registration, login, and profile access functionality using Express.js, PostgreSQL for database storage, JWT (JSON Web Token) for authentication, and bcrypt for password hashing.
 
+## Deployment
+
+The live deployment of this Next.js frontend can be accessed at: https://widya-nextjs-production.up.railway.app
+
 ## Important Note
 
 Please note that this is a frontend application that relies on the backend REST API for functionality. The backend REST API repository can be found here: [REST API with Express.js, PostgreSQL, JWT Authentication](https://github.com/MuhammadFauziHanif/widya_knowledge_test)
@@ -80,10 +84,6 @@ After successful login, you can access protected routes, such as the user profil
 ```
 http://localhost:3000/profile
 ```
-
-## Deployment
-
-The live deployment of this Next.js frontend can be accessed at: [widya-nextjs-production.up.railway.app](https://widya-nextjs-production.up.railway.app)
 
 ## Styling with Tailwind CSS and HyperUI
 
