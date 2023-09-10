@@ -43,11 +43,11 @@ export default function Layout({ children }) {
                   />
                 </div>
 
-                <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+                <h1 className="mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl md:text-4xl">
                   Welcome to the Widya Wicara Knowledge Test Results
                 </h1>
 
-                <p className="mt-4 leading-relaxed text-gray-500">
+                <p className="mt-4 leading-relaxed text-gray-500 dark:text-gray-400">
                   This application is built using Next.js and Tailwind CSS and serves as the frontend for the Knowledge Test REST API.
                 </p>
 
