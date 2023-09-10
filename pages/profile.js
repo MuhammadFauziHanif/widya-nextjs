@@ -30,7 +30,7 @@ function Profile() {
   };
 
   return (
-    <div className="p-4 bg-gray-100 rounded-lg shadow-md mt-8 w-[400px]">
+    <div className="p-4 bg-white dark:bg-gray-900 rounded-lg shadow-md mt-8 w-[400px]">
       <h1 className="text-2xl font-semibold mb-4 text-center">Profile</h1>
       {isLoading && (
         <p className="text-gray-700 text-center animate-pulse">Loading...</p>
@@ -40,21 +40,21 @@ function Profile() {
       )}
       {!isLoading && userProfile && (
         <div>
-          <div className="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
-            <dl className="-my-3 divide-y divide-gray-100 text-sm">
+          <div className="flow-root rounded-lg border border-gray-100 py-3 shadow-sm dark:border-gray-700">
+            <dl className="-my-3 divide-y divide-gray-100 text-sm dark:divide-gray-700">
               <div className="grid grid-cols-1 gap-1 p-3  sm:grid-cols-3 sm:gap-4">
-                <dt className="font-medium text-gray-900">Name</dt>
-                <dd className="text-gray-700 sm:col-span-2">{userProfile.name}</dd>
+                <dt className="font-medium text-gray-900 dark:text-white">Name</dt>
+                <dd className="text-gray-700 dark:text-gray-200 sm:col-span-2">{userProfile.name}</dd>
               </div>
 
               <div className="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt className="font-medium text-gray-900">Email</dt>
-                <dd className="text-gray-700 sm:col-span-2">{userProfile.email}</dd>
+                <dt className="font-medium text-gray-900 dark:text-white">Email</dt>
+                <dd className="text-gray-700 dark:text-gray-200 sm:col-span-2">{userProfile.email}</dd>
               </div>
 
               <div className="grid grid-cols-1 gap-1 p-3 sm:grid-cols-3 sm:gap-4">
-                <dt className="font-medium text-gray-900">Gender</dt>
-                <dd className="text-gray-700 sm:col-span-2">{userProfile.gender}</dd>
+                <dt className="font-medium text-gray-900 dark:text-white">Gender</dt>
+                <dd className="text-gray-700 dark:text-gray-200 sm:col-span-2">{userProfile.gender}</dd>
               </div>
             </dl>
           </div>

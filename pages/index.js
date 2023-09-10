@@ -63,13 +63,13 @@ function Register() {
 
   return (
     <div className="flex items-center justify-center mt-8">
-      <div className="bg-white p-8 rounded shadow-md">
+      <div className="bg-white dark:bg-gray-900 p-8 rounded shadow-md">
         <h1 className="text-2xl font-bold mb-4 text-center">Register</h1>
         <form onSubmit={handleSubmit} className="mt-8 grid grid-cols-6 gap-6">
           <div className="col-span-6 sm:col-span-3">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
             >
               Name
             </label>
@@ -80,7 +80,7 @@ function Register() {
               type="text"
               autoComplete="name"
               required
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
               placeholder="Name"
               value={formData.name}
               onChange={handleInputChange}
@@ -90,7 +90,7 @@ function Register() {
           <div className="col-span-6 sm:col-span-3">
             <label
               htmlFor="Gender"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
             >
               Gender
             </label>
@@ -100,7 +100,7 @@ function Register() {
               name="gender"
               autoComplete="gender"
               required
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
               value={formData.gender}
               onChange={handleInputChange}
             >
@@ -112,7 +112,7 @@ function Register() {
           </div>
 
           <div className="col-span-6">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-200">
               Email
             </label>
 
@@ -123,7 +123,7 @@ function Register() {
               autoComplete="email"
               required
               placeholder="Email address"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
               value={formData.email}
               onChange={handleInputChange}
             />
@@ -132,7 +132,7 @@ function Register() {
           <div className="col-span-6 sm:col-span-3">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
             >
               Password
             </label>
@@ -143,7 +143,7 @@ function Register() {
               type="password"
               autoComplete="new-password"
               required
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
               placeholder="Password"
               value={formData.password}
               onChange={handleInputChange}
@@ -153,7 +153,7 @@ function Register() {
           <div className="col-span-6 sm:col-span-3">
             <label
               htmlFor="password_confirmation"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-200"
             >
               Password Confirmation
             </label>
@@ -164,7 +164,7 @@ function Register() {
               type="password"
               autoComplete="new-password"
               required
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
               placeholder="Confirm Password"
               value={formData.password_confirmation}
               onChange={handleInputChange}
@@ -186,16 +186,16 @@ function Register() {
           <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
             <button
               type="submit"
-              className={`inline-block shrink-0 rounded-md border ${isLoading ? 'bg-gray-300 cursor-not-allowed animate-pulse' : 'border-blue-600 bg-blue-600'
-                } px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500`}
+              className={`inline-block shrink-0 rounded-md border ${isLoading ? 'cursor-not-allowed animate-pulse' : ''
+                } border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500`}
               disabled={isLoading} // Disable the button when loading
             >
               {isLoading ? 'Processing...' : 'Create an account'}
             </button>
 
 
-            <p className="mt-4 text-sm text-gray-500 sm:mt-0">
-              Already have an account? <a href="/login" className="text-gray-700 underline">Log in</a>.
+            <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+              Already have an account? <a href="/login" className="text-gray-700 underline dark:text-gray-200">Log in</a>.
             </p>
           </div>
         </form>
